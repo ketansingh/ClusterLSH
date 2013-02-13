@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="modules/floe-api"/>
+	<classpathentry kind="src" path="modules/floe-core"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/biojava3-aa-prop-3.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/biojava3-alignment-3.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/biojava3-core-3.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="lib/jersey-client-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/jersey-core-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/jersey-server-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="lib/sigar-bin/lib/sigar.jar"/>
+	<classpathentry kind="lib" path="lib/apfloat.jar" sourcepath="C:/Users/Administrator/Downloads/apfloat-1.6.3/source"/>
+	<classpathentry kind="lib" path="lib/apfloatPI.jar" sourcepath="C:/Users/Administrator/Downloads/apfloat-1.6.3/source"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>

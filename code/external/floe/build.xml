@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<project name="Ant-Test" default="main" basedir=".">
+	<!-- Sets variables which can later be used. -->
+	<!-- The value of a property is accessed via ${} -->
+	<property name="src.dir" location="modules" />
+	<property name="build.dir" location="build" />
+	<property name="dist.dir" location="dist" />
+	<property name="final.dir" location="..\\finaldir" />
+	<property name="docs.dir" location="docs" />
+	<property name="lib.dir"  location="lib"/>
+	<property name="sigar.lib.dir"  location="lib\\sigar-bin\\lib"/>
+
+	<path id="classpath">
+		<fileset dir="${lib.dir}" includes="*.jar"/>
+		<fileset dir="${sigar.lib.dir}" includes="*"/>
+	</path>
+	
+	<!-- Deletes the existing build, docs and dist directory-->
+	<target name="clean">
+		<delete dir="${build.dir}" />
+		<delete dir="${docs.dir}" />
+		<delete dir="${dist.dir}" />
+	</target>
+	
+	
+
+	<!-- Creates the  build, docs and dist directory-->
+	<target name="makedir">	
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${docs.dir}" />
+		<mkdir dir="${dist.dir}" />
+		<mkdir dir="${final.dir}" />
+	</target>
+
+	<!-- Compiles the java code (including the usage of library for JUnit -->
+	<target name="compile" depends="clean, makedir">
+		<javac srcdir="${src.dir}" destdir="${build.dir}" classpathref="classpath">
+		</javac>
+	</target>
+
+	
+	<!--Creates the deployable jar file  -->
+	<target name="jar" depends="compile">
+		<jar destfile="${dist.dir}\floe.jar" basedir="${build.dir}">
+			
+		</jar>
+	</target>
+
+	<target name="copy" depends="jar">
+		<copy todir="${final.dir}">
+	      <fileset dir="${dist.dir}"/>
+	    </copy>
+		<copy todir="${final.dir}\\lib">
+			<fileset dir="${lib.dir}"/>
+		</copy>		
+	</target>
+	<target name="main" depends="compile, jar, copy">
+		<description>Main target</description>
+	</target>
+</project>

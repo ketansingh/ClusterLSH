@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/floe"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mahout-math"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/mahout-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/StringMatching"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/apfloat.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/apfloatPI.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/biojava3-aa-prop-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/biojava3-alignment-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/biojava3-core-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/commons-net-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/jackson-core-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/jersey-client-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/jersey-core-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/jersey-server-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/poi-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/poi-ooxml-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/poi-ooxml-schemas-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/sigar.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ketansin/Desktop/pl2/code/external/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/core"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

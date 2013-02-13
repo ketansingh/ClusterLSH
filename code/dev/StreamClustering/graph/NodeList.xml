@@ -1,0 +1,66 @@
+<Nodes>
+
+	<Node>
+		<nodeId>1</nodeId>
+		<pelletType>pellets.TweetCleaner</pelletType>
+		<Resource>
+			<numCores>1</numCores>
+		</Resource>						
+	</Node>
+	
+ 	<Node>
+		<nodeId>2</nodeId>
+		<pelletType>pellets.LSHBucketizer</pelletType>
+		<Resource>
+			<numCores>1</numCores>
+		</Resource>						
+	</Node>
+
+	<Node>
+		<nodeId>3</nodeId>		
+		<pelletType>pellets.LSHClusterSearch</pelletType>
+		<Resource>
+			<numCores>1</numCores>
+		</Resource>		
+	</Node> 	
+ 
+	<Node>
+		<nodeId>4</nodeId>		
+		<pelletType>pellets.LSHClusterSearch</pelletType>
+		<Resource>
+			<numCores>1</numCores>
+		</Resource>		
+	</Node>
+	
+	<Node>
+		<nodeId>5</nodeId>		
+		<pelletType>pellets.LSHClusterSearch</pelletType>
+		<Resource>
+			<numCores>1</numCores>
+		</Resource>		
+	</Node>
+	
+	<Node>
+		<nodeId>6</nodeId>		
+		<pelletType>pellets.LSHClusterSearch</pelletType>
+		<Resource>
+			<numCores>1</numCores>
+		</Resource>		
+	</Node>
+	
+	<Node>
+		<nodeId>11</nodeId>		
+		<pelletType>pellets.LSHStreamGenerator</pelletType>
+		<Resource>
+			<numCores>1</numCores>
+		</Resource>		
+	</Node>
+	
+	<Node>
+		<nodeId>12</nodeId>		
+		<pelletType>pellets.LSHSGDummy</pelletType>
+		<Resource>
+			<numCores>1</numCores>
+		</Resource>		
+	</Node> 	
+</Nodes>

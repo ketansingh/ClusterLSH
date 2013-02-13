@@ -1,0 +1,19 @@
+compactness of representation of centroid
+
+Therefore, a data stream clustering algorithm must provide a representation of
+the clusters found that is not only compact, but it does not grow
+appreciably with the number of points processed. (Notice that
+even a linear growth is intolerable.)
+
+
+fast and incremental processing of new data points
+
+
+
+clear and fast identification of ''outliers'' : -- 
+We have placed the word outliers between quotes, since by that term
+we mean to imply points that do not fit well in any of the clusters
+that the algorithm has found so far.
+
+
+Fractal Clustering
